@@ -3,9 +3,6 @@ import { Card, Col, Button } from 'antd';
 
 
 function Foodbox({ name, calories, image, servings, handleDelete }) {
-
-
-    
   return (
     <Col>
       <Card title={name} style={{ width: 230, height: 300, margin: 10 }}>
